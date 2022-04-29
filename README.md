@@ -1,7 +1,7 @@
 # Task_1
 Практическое задание Frontend-разработчика, компания Softlex
 
-Сайт: https://karpenkods.github.io/task_1/
+Сайт: https://karpenkods.github.io/softlex-task_1
 
 Приложение адаптивно для любых устройств, доступность, кроссбраузерность.
 
