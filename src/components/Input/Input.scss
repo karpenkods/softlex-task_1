@@ -1,0 +1,25 @@
+@import '../../index.scss';
+
+.input {
+  width: 100%;
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+  background-color: $colorSmokyWhite;
+  -webkit-box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.5);
+  box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.5);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: $colorText;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  &:focus {
+    -webkit-box-shadow: 5px 5px 8px 0px $colorGreen;
+    box-shadow: 5px 5px 8px 0px $colorGreen;
+  }
+  &:hover {
+    -webkit-box-shadow: 5px 5px 8px 0px $colorGreen;
+    box-shadow: 5px 5px 8px 0px $colorGreen;
+  }
+}

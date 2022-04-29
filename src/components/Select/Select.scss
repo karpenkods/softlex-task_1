@@ -1,0 +1,30 @@
+@import '../../index.scss';
+
+.select {
+  padding: 8px 12px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: $colorText;
+  font-size: 18px;
+  font-weight: 700;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  &:focus {
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.7);
+    box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.7);
+  }
+  &:hover {
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.7);
+    box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.7);
+  }
+}
+
+.select option:checked {
+  color: $colorBodySilver;
+}

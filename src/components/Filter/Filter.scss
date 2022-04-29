@@ -1,0 +1,28 @@
+@import '../../index.scss';
+
+.heading {
+  margin-bottom: 25px;
+  text-align: center;
+  color: $colorText;
+}
+
+.filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .filter {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+}

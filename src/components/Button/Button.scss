@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: $colorText;
+  background: transparent;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  &:hover {
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.7);
+    box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.7);
+  }
+  &:focus {
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.7);
+    box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.7);
+  }
+  &:active {
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-box-shadow: 5px 5px 8px 0px $colorGreen;
+    box-shadow: 5px 5px 8px 0px $colorGreen;
+  }
+}

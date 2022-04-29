@@ -1,0 +1,46 @@
+@import '../../index.scss';
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: $colorText;
+  font-weight: 700;
+  :hover {
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  :focus {
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    outline: none;
+  }
+
+  &__btn {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  &__checked {
+    color: $colorTitian;
+  }
+
+  &__radio {
+    display: none;
+  }
+}
